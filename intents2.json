@@ -1,0 +1,94 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+      "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+      "context_set": ""
+    },
+    {
+      "tag": "programming",
+      "patterns": ["What is programming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?"],
+      "responses": ["Programming, coding, or software development means writing computer code to automate tasks."],
+      "context_set": ""
+    },
+    {
+      "tag": "resource",
+      "patterns": ["Where can I learn to code?", "Best way to learn to code", "How can I learn programming", "Good programming resources", "Can you recommend good coding resources?"],
+      "responses": ["Check out YouTube or Other Sites."],
+      "context_set": ""
+    },
+    {
+      "tag": "insurance",
+      "patterns": ["Insurance", "Tell me about insurance", "I need insurance information", "What is insurance?"],
+      "responses": ["Insurance provides financial protection against unexpected events. There are various types such as life, health, auto, and home insurance."],
+      "context_set": ""
+    },
+    {
+      "tag": "personal_info",
+      "patterns": ["What's your name?", "Who are you?", "How old are you?", "Where are you from?"],
+      "responses": ["I'm just a bot created to assist you!", "I'm a virtual assistant designed to help you with your queries.", "I'm here to assist you, regardless of my personal details!"],
+      "context_set": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks a lot", "Thanks!", "Appreciate it"],
+      "responses": ["You're welcome!", "Glad I could help!", "No problem!"],
+      "context_set": ""
+    },
+    {
+      "tag": "about_bot",
+      "patterns": ["What can you do?", "Tell me about yourself", "Who created you?", "Why were you made?"],
+      "responses": ["I'm here to help answer your questions and provide assistance!", "I'm a chatbot designed to assist you with various queries.", "I was created to make your life a bit easier by providing helpful information and assistance."],
+      "context_set": ""
+    },
+    {
+      "tag": "personal_life",
+      "patterns": ["How are you?", "What's up?", "How's your day?", "How's it going?"],
+      "responses": ["I'm just a bot, so I don't have feelings, but thanks for asking!", "I'm here and ready to assist you!", "I don't have a personal life, but I'm here to help you with yours!"],
+      "context_set": ""
+    },
+    {
+      "tag": "insurance_quote",
+      "patterns": ["Can I get a quote?", "Get me a quote", "Quote for insurance", "How much does insurance cost?", "Insurance pricing"],
+      "responses": ["Sure, I can help you with that. Please provide some details about the type of insurance you're interested in."],
+      "context_set": "insurance"
+    },
+    {
+      "tag": "insurance_coverage",
+      "patterns": ["What does my insurance cover?", "Coverage details", "Policy coverage information", "Check my coverage"],
+      "responses": ["I can assist you with that. Could you please provide me with your policy details?"],
+      "context_set": "insurance"
+    },
+    {
+      "tag": "file_claim",
+      "patterns": ["How do I file an insurance claim?", "Claim procedure", "Need to file a claim", "Claim submission process"],
+      "responses": ["To file a claim, you can provide me with the details, and I'll guide you through the process."],
+      "context_set": "insurance"
+    },
+    {
+      "tag": "update_policy",
+      "patterns": ["How can I update my policy?", "Policy modification", "Change coverage details", "Update insurance policy"],
+      "responses": ["You can update your policy by providing me with the necessary information, and I'll assist you in making the changes."],
+      "context_set": "insurance"
+    },
+    {
+      "tag": "cancel_policy",
+      "patterns": ["Can I cancel my policy?", "Policy cancellation process", "Terminate insurance policy", "Cancel coverage"],
+      "responses": ["Yes, you can cancel your policy. Please provide me with your policy details, and I'll guide you through the cancellation process."],
+      "context_set": "insurance"
+    },
+    {
+      "tag": "insurance_recommendation",
+      "patterns": ["Which insurance plan is best for me?", "Recommend an insurance policy", "Best insurance coverage for my needs", "Which policy suits me?"],
+      "responses": ["I can help you find the best insurance plan based on your needs. Please provide me with some information about your requirements."],
+      "context_set": "insurance"
+    }
+  ]
+}

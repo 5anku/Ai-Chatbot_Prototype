@@ -1,0 +1,166 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+      "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+      "context_set": ""
+    },
+    {
+      "tag": "programming",
+      "patterns": ["What is programming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?"],
+      "responses": ["Programming, coding, or software development means writing computer code to automate tasks."],
+      "context_set": ""
+    },
+    {
+      "tag": "resource",
+      "patterns": ["Where can I learn to code?", "Best way to learn to code", "How can I learn programming", "Good programming resources", "Can you recommend good coding resources?"],
+      "responses": ["Check out YouTube or Other Sites."],
+      "context_set": ""
+    },
+    {
+      "tag": "personal_info",
+      "patterns": ["What's your name?", "Who are you?", "How old are you?", "Where are you from?"],
+      "responses": ["I'm just a bot created to assist you!", "I'm a virtual assistant designed to help you with your queries.", "I'm here to assist you, regardless of my personal details!"],
+      "context_set": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks a lot", "Thanks!", "Appreciate it"],
+      "responses": ["You're welcome!", "Glad I could help!", "No problem!"],
+      "context_set": ""
+    },
+    {
+      "tag": "about_bot",
+      "patterns": ["What can you do?", "Tell me about yourself", "Who created you?", "Why were you made?"],
+      "responses": ["I'm here to help answer your questions and provide assistance!", "I'm a chatbot designed to assist you with various queries.", "I was created to make your life a bit easier by providing helpful information and assistance."],
+      "context_set": ""
+    },
+    {
+      "tag": "personal_life",
+      "patterns": ["How are you?", "What's up?", "How's your day?", "How's it going?"],
+      "responses": ["I'm just a bot, so I don't have feelings, but thanks for asking!", "I'm here and ready to assist you!", "I don't have a personal life, but I'm here to help you with yours!"],
+      "context_set": ""
+    },
+    {
+      "tag": "insurance",
+      "patterns": ["Insurance", "Tell me about insurance", "I need insurance information", "What is insurance?"],
+      "responses": ["Insurance provides financial protection against unexpected events. There are various types such as life, health, auto, and home insurance."],
+      "context_set": ""
+    },
+    {
+      "tag": "insurance_quote",
+      "patterns": ["Can I get a quote?", "Get me a quote", "Quote for insurance", "How much does insurance cost?", "Insurance pricing"],
+      "responses": ["Sure, I can help you with that. Please provide some details about the type of insurance you're interested in."],
+      "context_set": ""
+    },
+    {
+      "tag": "insurance_coverage",
+      "patterns": ["What does my insurance cover?", "Coverage details", "Policy coverage information", "Check my coverage"],
+      "responses": ["I can assist you with that. Could you please provide me with your policy details?"],
+      "context_set": ""
+    },
+    {
+      "tag": "file_claim",
+      "patterns": ["How do I file an insurance claim?", "Claim procedure", "Need to file a claim", "Claim submission process"],
+      "responses": ["To file a claim, you can provide me with the details, and I'll guide you through the process."],
+      "context_set": ""
+    },
+    {
+      "tag": "update_policy",
+      "patterns": ["How can I update my policy?", "Policy modification", "Change coverage details", "Update insurance policy"],
+      "responses": ["You can update your policy by providing me with the necessary information, and I'll assist you in making the changes."],
+      "context_set": ""
+    },
+    {
+      "tag": "cancel_policy",
+      "patterns": ["Can I cancel my policy?", "Policy cancellation process", "Terminate insurance policy", "Cancel coverage"],
+      "responses": ["Yes, you can cancel your policy. Please provide me with your policy details, and I'll guide you through the cancellation process."],
+      "context_set": ""
+    },
+    {
+      "tag": "insurance_recommendation",
+      "patterns": ["Which insurance plan is best for me?", "Recommend an insurance policy", "Best insurance coverage for my needs", "Which policy suits me?"],
+      "responses": ["I can help you find the best insurance plan based on your needs. Please provide me with some information about your requirements."],
+      "context_set": ""
+    },
+    {
+      "tag": "compare_policies",
+      "patterns": ["Compare insurance policies", "Policy comparison", "Which policy is better?", "Compare coverage options"],
+      "responses": ["I can assist you in comparing different insurance policies to help you make an informed decision. Please provide me with the policies you'd like to compare."],
+      "context_set": ""
+    },
+    {
+      "tag": "premium_payment",
+      "patterns": ["How do I pay my insurance premium?", "Premium payment methods", "Pay insurance bill", "Payment options for insurance"],
+      "responses": ["You can pay your insurance premium through various methods such as online banking, credit card, or automatic deduction. I can guide you through the payment process."],
+      "context_set": ""
+    },
+    {
+      "tag": "policy_explanation",
+      "patterns": ["Can you explain my policy terms?", "Policy details explanation", "Understanding insurance policy terms", "Clarify policy provisions"],
+      "responses": ["I can provide explanations for the terms and conditions of your insurance policy. Please provide me with the specific terms you'd like to understand better."],
+      "context_set": ""
+    },
+    {
+      "tag": "add_beneficiary",
+      "patterns": ["How do I add a beneficiary to my policy?", "Add someone to my insurance policy", "Beneficiary addition process", "Include beneficiary in policy"],
+      "responses": ["To add a beneficiary to your policy, you'll need to provide me with their details, and I'll assist you in completing the process."],
+      "context_set": ""
+    },
+    {
+      "tag": "claim_status",
+      "patterns": ["Check my claim status", "Claim progress update", "View claim status", "Track my insurance claim"],
+      "responses": ["I can help you check the status of your insurance claim. Please provide me with the necessary details, and I'll retrieve the information for you."],
+      "context_set": ""
+    },
+    {
+      "tag": "policy_recommendation",
+      "patterns": ["Recommend a policy for my situation", "Best policy for my circumstances", "Suggest insurance coverage", "Which policy matches my needs?"],
+      "responses": ["Based on your specific situation and requirements, I can recommend a suitable insurance policy. Please provide me with some details about your circumstances."],
+      "context_set": ""
+    },
+    {
+      "tag": "coverage_update",
+      "patterns": ["Update my coverage", "Modify insurance coverage", "Change policy coverage", "Adjust coverage details"],
+      "responses": ["You can update your coverage by providing me with the changes you'd like to make, and I'll assist you in updating your policy accordingly."],
+      "context_set": ""
+    },
+    {
+      "tag": "policy_terms",
+      "patterns": ["Explain insurance policy terms", "Policy jargon explanation", "Understand insurance terminology", "Clarify policy language"],
+      "responses": ["I can provide explanations for any confusing terms or language used in your insurance policy. Just let me know which terms you'd like me to clarify."],
+      "context_set": ""
+    },
+    {
+      "tag": "policy_documents",
+      "patterns": ["Access my policy documents", "View insurance policy papers", "Retrieve policy documentation", "Download policy paperwork"],
+      "responses": ["You can access your policy documents through our platform. If you need assistance finding or retrieving them, I'm here to help."],
+      "context_set": ""
+    },
+    {
+      "tag": "coverage_review",
+      "patterns": ["Review my coverage options", "Assess insurance coverage", "Evaluate policy coverage", "Check my insurance protections"],
+      "responses": ["I can review your coverage options with you to ensure you have the appropriate protections in place. Please provide me with your policy details."],
+      "context_set": ""
+    },
+    {
+      "tag": "renewal_reminder",
+      "patterns": ["Remind me about policy renewal", "Notify me of insurance renewal", "Renewal alert for my policy", "Policy expiration reminder"],
+      "responses": ["I can send you reminders when it's time to renew your policy. Would you like me to set up renewal alerts for you?"],
+      "context_set": ""
+    },
+    {
+      "tag": "policy_upgrade",
+      "patterns": ["Upgrade my insurance policy", "Enhance coverage options", "Increase insurance protections", "Policy improvement"],
+      "responses": ["If you're interested in upgrading your policy for better coverage, I can assist you in exploring your options and making the necessary changes."],
+      "context_set": ""
+    }
+  ]
+}
